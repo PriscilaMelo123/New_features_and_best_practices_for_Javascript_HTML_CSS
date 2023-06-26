@@ -3,7 +3,6 @@ body {
   --marrom-escuro: #816D4F;
   --marrom-claro: #B29463;
   font-family: 'barlow', sans-serif;
-  height: 4000px;
 }
 input[type=checkbox] {
   border: 2px solid var(--marrom-claro);
@@ -35,6 +34,7 @@ input [type="checkbox"]:focus {
 }
 .botao-padrao {
   background-color: var(--marrom-claro);
+  color: #212529;
 }
 .botao-padrao:hover {
   background-color: var(--marrom-escuro);
